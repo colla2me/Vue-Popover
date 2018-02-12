@@ -1,2 +1,5 @@
 # Vue-Popover
-Vue-Popover for myself
+Vue-Popover Component for myself
+
+## Preview
+see [demo](https://colla2me.github.io/Vue-Popover/)
