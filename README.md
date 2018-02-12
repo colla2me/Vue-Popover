@@ -1,4 +1,4 @@
-# Vue-Popover
+## Vue-Popover
 Vue-Popover Component for myself
 
 ## Preview
