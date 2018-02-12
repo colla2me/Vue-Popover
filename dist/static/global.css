@@ -1,0 +1,111 @@
+body,
+ul,
+dl,
+dt,
+dd,
+li,
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+nav,
+header,
+aside,
+main,
+section,
+article,
+address,
+footer {
+  display: block;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul,
+ol {
+  list-style: none
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: Helvetica, Microsoft YaHei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+  background-color: #f0f2f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: all .3s;
+}
+
+.offset-left {
+  transform: translateX(-100%);
+}
+
+.offset-right {
+  transform: translateX(100%);
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s;
+}
+
+.collapse-transition {
+  transition: 0.2s height ease-in-out, 0.2s padding-top ease-in-out, 0.2s padding-bottom ease-in-out;
+}
